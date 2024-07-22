@@ -1,0 +1,6 @@
+@Mrs_Louders_Library_HostAddress = http://localhost:5136
+
+GET {{Mrs_Louders_Library_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Mrs_Louders_Library.props" />
+</Project>

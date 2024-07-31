@@ -4527,11 +4527,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ramse\\source\\FULLSTACK\\Mrs_Louders_Library\\Mrs_Louders_Library\\Mrs_Louders_Library.csproj",
+      "projectUniqueName": "C:\\Users\\ramse\\source\\FULLSTACK\\MsLoudersLibrary\\Mrs_Louders_Library\\Mrs_Louders_Library.csproj",
       "projectName": "Mrs_Louders_Library",
-      "projectPath": "C:\\Users\\ramse\\source\\FULLSTACK\\Mrs_Louders_Library\\Mrs_Louders_Library\\Mrs_Louders_Library.csproj",
+      "projectPath": "C:\\Users\\ramse\\source\\FULLSTACK\\MsLoudersLibrary\\Mrs_Louders_Library\\Mrs_Louders_Library.csproj",
       "packagesPath": "C:\\Users\\ramse\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ramse\\source\\FULLSTACK\\Mrs_Louders_Library\\Mrs_Louders_Library\\obj\\",
+      "outputPath": "C:\\Users\\ramse\\source\\FULLSTACK\\MsLoudersLibrary\\Mrs_Louders_Library\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ramse\\AppData\\Roaming\\NuGet\\NuGet.Config",

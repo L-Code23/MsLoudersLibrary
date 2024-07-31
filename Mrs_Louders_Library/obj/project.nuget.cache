@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "93yK4TL3a63d5KF7Xswci1ZZ7HNwFr9Cclz0ViAVk7QoJEigajTkC7WE1ZFCd3OZRB89yYtEoVE7ngvwNakrUQ==",
+  "dgSpecHash": "yfZCKdLcJFYGgWyiYGiCGBgT5daCwpnC2ZuZk958qiEGmlqWDVftp8EH8+pTba+okvTBTBKHg5NjIn797XwiFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ramse\\source\\FULLSTACK\\Mrs_Louders_Library\\Mrs_Louders_Library\\Mrs_Louders_Library.csproj",
+  "projectFilePath": "C:\\Users\\ramse\\source\\FULLSTACK\\MsLoudersLibrary\\Mrs_Louders_Library\\Mrs_Louders_Library.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ramse\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ramse\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

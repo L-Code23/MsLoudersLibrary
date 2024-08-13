@@ -273,3 +273,6 @@ C:\Users\ramse\source\FULLSTACK\MsLoudersLibrary\Mrs_Louders_Library\obj\Debug\n
 C:\Users\ramse\source\FULLSTACK\MsLoudersLibrary\Mrs_Louders_Library\obj\Debug\net8.0\Mrs_Louders_Library.pdb
 C:\Users\ramse\source\FULLSTACK\MsLoudersLibrary\Mrs_Louders_Library\obj\Debug\net8.0\Mrs_Louders_Library.genruntimeconfig.cache
 C:\Users\ramse\source\FULLSTACK\MsLoudersLibrary\Mrs_Louders_Library\obj\Debug\net8.0\ref\Mrs_Louders_Library.dll
+C:\Users\ramse\source\FULLSTACK\MsLoudersLibrary\Mrs_Louders_Library\bin\Debug\net8.0\FluentAssertions.dll
+C:\Users\ramse\source\FULLSTACK\MsLoudersLibrary\Mrs_Louders_Library\bin\Debug\net8.0\FluentAssertions.Json.dll
+C:\Users\ramse\source\FULLSTACK\MsLoudersLibrary\Mrs_Louders_Library\bin\Debug\net8.0\Newtonsoft.Json.dll

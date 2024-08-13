@@ -15,6 +15,7 @@ builder.Services.AddCors(options =>
             policy.WithOrigins("http://localhost:4200",
                                 "https://MyChatRoom.com").AllowAnyMethod().AllowAnyHeader();
         });
+    
 });
 builder.Services.AddControllers();
 //Register DbContext
@@ -43,4 +44,3 @@ app.MapControllers();
 app.UseCors();
 
 app.Run();
-LouderLibraryDbContext.

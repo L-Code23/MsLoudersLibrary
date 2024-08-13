@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ramse\\source\\FULLSTACK\\MsLoudersLibrary\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{14246CA9-BA52-4616-9CCF-F5C734C96EDB}|Mrs_Louders_Library\\Mrs_Louders_Library.csproj|c:\\users\\ramse\\source\\fullstack\\mslouderslibrary\\mrs_louders_library\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{14246CA9-BA52-4616-9CCF-F5C734C96EDB}|Mrs_Louders_Library\\Mrs_Louders_Library.csproj|solutionrelative:mrs_louders_library\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{14246CA9-BA52-4616-9CCF-F5C734C96EDB}|Mrs_Louders_Library\\Mrs_Louders_Library.csproj|c:\\users\\ramse\\source\\fullstack\\mslouderslibrary\\mrs_louders_library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14246CA9-BA52-4616-9CCF-F5C734C96EDB}|Mrs_Louders_Library\\Mrs_Louders_Library.csproj|solutionrelative:mrs_louders_library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{14246CA9-BA52-4616-9CCF-F5C734C96EDB}|Mrs_Louders_Library\\Mrs_Louders_Library.csproj|solutionrelative:mrs_louders_library\\models\\louderlibrarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14246CA9-BA52-4616-9CCF-F5C734C96EDB}|Mrs_Louders_Library\\Mrs_Louders_Library.csproj|c:\\users\\ramse\\source\\fullstack\\mslouderslibrary\\mrs_louders_library\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{14246CA9-BA52-4616-9CCF-F5C734C96EDB}|Mrs_Louders_Library\\Mrs_Louders_Library.csproj|solutionrelative:mrs_louders_library\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{14246CA9-BA52-4616-9CCF-F5C734C96EDB}|Mrs_Louders_Library\\Mrs_Louders_Library.csproj|c:\\users\\ramse\\source\\fullstack\\mslouderslibrary\\mrs_louders_library\\models\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14246CA9-BA52-4616-9CCF-F5C734C96EDB}|Mrs_Louders_Library\\Mrs_Louders_Library.csproj|solutionrelative:mrs_louders_library\\models\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 218,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "LouderLibraryDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ramse\\source\\FULLSTACK\\MsLoudersLibrary\\Mrs_Louders_Library\\Models\\LouderLibraryDbContext.cs",
               "RelativeDocumentMoniker": "Mrs_Louders_Library\\Models\\LouderLibraryDbContext.cs",
@@ -62,12 +62,11 @@
               "RelativeToolTip": "Mrs_Louders_Library\\Models\\LouderLibraryDbContext.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAIBBwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T02:59:27.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-15T02:59:27.743Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "BookAuthorController.cs",
               "DocumentMoniker": "C:\\Users\\ramse\\source\\FULLSTACK\\MsLoudersLibrary\\Mrs_Louders_Library\\Controllers\\BookAuthorController.cs",
               "RelativeDocumentMoniker": "Mrs_Louders_Library\\Controllers\\BookAuthorController.cs",
@@ -75,31 +74,30 @@
               "RelativeToolTip": "Mrs_Louders_Library\\Controllers\\BookAuthorController.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAABFwA8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T21:13:45.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T21:13:45.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ramse\\source\\FULLSTACK\\MsLoudersLibrary\\Mrs_Louders_Library\\Program.cs",
               "RelativeDocumentMoniker": "Mrs_Louders_Library\\Program.cs",
               "ToolTip": "C:\\Users\\ramse\\source\\FULLSTACK\\MsLoudersLibrary\\Mrs_Louders_Library\\Program.cs",
               "RelativeToolTip": "Mrs_Louders_Library\\Program.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAC0AAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-31T17:25:57.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ramse\\source\\FULLSTACK\\MsLoudersLibrary\\Mrs_Louders_Library\\appsettings.json",
               "RelativeDocumentMoniker": "Mrs_Louders_Library\\appsettings.json",
               "ToolTip": "C:\\Users\\ramse\\source\\FULLSTACK\\MsLoudersLibrary\\Mrs_Louders_Library\\appsettings.json",
               "RelativeToolTip": "Mrs_Louders_Library\\appsettings.json",
-              "ViewState": "AQIAAAcAAAAAAAAAAAA3wAoAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-08-12T19:50:14.085Z",
               "EditorCaption": ""
@@ -114,12 +112,11 @@
               "RelativeToolTip": "Mrs_Louders_Library\\Models\\Startup.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAA+wBAAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T20:16:44.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-12T20:16:44.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AuthorController.cs",
               "DocumentMoniker": "C:\\Users\\ramse\\source\\FULLSTACK\\MsLoudersLibrary\\Mrs_Louders_Library\\Controllers\\AuthorController.cs",
               "RelativeDocumentMoniker": "Mrs_Louders_Library\\Controllers\\AuthorController.cs",
@@ -127,12 +124,11 @@
               "RelativeToolTip": "Mrs_Louders_Library\\Controllers\\AuthorController.cs",
               "ViewState": "AQIAADIAAAAAAAAAAAAAADsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T03:57:15.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T03:57:15.707Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BookController.cs",
               "DocumentMoniker": "C:\\Users\\ramse\\source\\FULLSTACK\\MsLoudersLibrary\\Mrs_Louders_Library\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "Mrs_Louders_Library\\Controllers\\BookController.cs",
@@ -140,12 +136,11 @@
               "RelativeToolTip": "Mrs_Louders_Library\\Controllers\\BookController.cs",
               "ViewState": "AQIAADQAAAAAAAAAAABBwDUAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T03:57:38.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T03:57:38.752Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Users\\ramse\\source\\FULLSTACK\\MsLoudersLibrary\\Mrs_Louders_Library\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "Mrs_Louders_Library\\Controllers\\StudentController.cs",
@@ -153,8 +148,7 @@
               "RelativeToolTip": "Mrs_Louders_Library\\Controllers\\StudentController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAADoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T03:56:45.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T03:56:45.174Z"
             },
             {
               "$type": "Document",
@@ -166,8 +160,7 @@
               "RelativeToolTip": "Mrs_Louders_Library\\Models\\StudentDTO.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAA6wAcAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T04:12:39.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T04:12:39.567Z"
             }
           ]
         }

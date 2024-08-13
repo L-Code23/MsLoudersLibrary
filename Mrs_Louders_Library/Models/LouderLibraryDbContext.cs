@@ -17,6 +17,7 @@ public partial class LouderLibraryDbContext : DbContext
 
     public virtual DbSet<Author> Authors { get; set; }
 
+
     public virtual DbSet<Book> Books { get; set; }
 
     public virtual DbSet<Student> Students { get; set; }

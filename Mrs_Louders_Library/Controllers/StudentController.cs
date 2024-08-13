@@ -9,11 +9,17 @@ namespace Mrs_Louders_Library.Controllers
     [ApiController]
     public class StudentController : ControllerBase
     {
-        LouderLibraryDbContext dbContext = new LouderLibraryDbContext();
+        private readonly LouderLibraryDbContext _dbContext;
+
+        // DbContext is injected via the constructor
+        public StudentController(LouderLibraryDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
         [HttpGet("{id}")]
         public IActionResult GetUserById(int id)
         {
-            Student result = dbContext.Students.Find(id);
+            Student result = _dbContext.Students.Find(id);
             if (result == null)
             {
                 return NotFound();
@@ -21,12 +27,12 @@ namespace Mrs_Louders_Library.Controllers
             return Ok(result);
         }
 
-        [HttpPost]
+        [HttpPost()]
         public IActionResult AddStudent(StudentDTO newStudent)
         {
-            if (dbContext.Students.Any(u => u.Email.ToLower() == newStudent.Email.ToLower()))
+            if (_dbContext.Students.Any(u => u.Email.ToLower() == newStudent.Email.ToLower()))
             {
-                return Ok(dbContext.Students.FirstOrDefault(u => u.Email.ToLower() == newStudent.Email.ToLower()));
+                return Ok(_dbContext.Students.FirstOrDefault(u => u.Email.ToLower() == newStudent.Email.ToLower()));
 
             }
             else
@@ -41,8 +47,8 @@ namespace Mrs_Louders_Library.Controllers
 
                 };
 
-                dbContext.Students.Add(s);
-                dbContext.SaveChanges();
+                _dbContext.Students.Add(s);
+                _dbContext.SaveChanges();
                 return Created($"/Api/Student/{s.Id}", s);
             }
         }
@@ -50,24 +56,24 @@ namespace Mrs_Louders_Library.Controllers
         [HttpPut("{id}")]
         public IActionResult UpdateStudent(int id, StudentDTO updatedStudent)
         {
-            Student s = dbContext.Students.Find(id);
+            Student s = _dbContext.Students.Find(id);
             if(s == null) { return NotFound(); }
             s.FirstName = updatedStudent.FirstName;
             s.LastName = updatedStudent.LastName;
             s.Email = updatedStudent.Email; 
             s.Id = updatedStudent.Id;
-            dbContext.Students.Update(s);
-            dbContext.SaveChanges();
+            _dbContext.Students.Update(s);
+            _dbContext.SaveChanges();
             return NoContent();
         }
         [HttpDelete("{id}")]   
         
         public IActionResult DeleteStudent(int id)
         {
-            Student s = dbContext.Students.Find(id);
+            Student s = _dbContext.Students.Find(id);
             if(s == null ) { return NotFound(); }
-            dbContext.Students.Remove(s);
-            dbContext.SaveChanges();
+            _dbContext.Students.Remove(s);
+            _dbContext.SaveChanges();
             return NoContent() ;
         }
         

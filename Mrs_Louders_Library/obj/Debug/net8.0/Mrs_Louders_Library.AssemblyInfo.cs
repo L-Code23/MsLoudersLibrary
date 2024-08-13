@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mrs_Louders_Library")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b37f2ca5906a7a236bd8262317171303dd32f22")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+799fdf67ab95637c3bac59b939b27371b3c85685")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mrs_Louders_Library")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mrs_Louders_Library")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

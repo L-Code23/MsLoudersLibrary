@@ -7,18 +7,26 @@ namespace Mrs_Louders_Library.Controllers
     [Route("api/[controller]")]
     [ApiController]
     public class AuthorController : ControllerBase
+
     {
-        LouderLibraryDbContext dbContext = new LouderLibraryDbContext();
+        private readonly LouderLibraryDbContext _dbContext;
+
+        // DbContext is injected via the constructor
+        public AuthorController(LouderLibraryDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
+        
         [HttpGet]
         public IActionResult GetAllAuthors()
         {
-            List<Author> authors = dbContext.Authors.ToList();
+            List<Author> authors = _dbContext.Authors.ToList();
             return Ok(authors);
         }
         [HttpGet("{id}")]
         public IActionResult GetAuthorsById(int id)
         {
-            List<Author> authors = dbContext.Authors.ToList();
+            List<Author> authors = _dbContext.Authors.ToList();
             if (authors == null) { return NotFound(); }
             return Ok(authors);
 
@@ -27,8 +35,8 @@ namespace Mrs_Louders_Library.Controllers
         public IActionResult AddAuthors( Author newAuthor)
         {
            
-            dbContext.Authors.Add(newAuthor);
-            dbContext.SaveChanges();
+            _dbContext.Authors.Add(newAuthor);
+            _dbContext.SaveChanges();
             return Ok();
         }
         [HttpPut("{id}")]
@@ -39,14 +47,14 @@ namespace Mrs_Louders_Library.Controllers
             {
                 return BadRequest();
             }
-            else if(!dbContext.Authors.Any(a=> a.Id == id))
+            else if(!_dbContext.Authors.Any(a=> a.Id == id))
             {
                 return NotFound();  
             }
             else
             {
-                dbContext.Authors.Update(updatedAuthor);
-                dbContext.SaveChanges();
+                _dbContext.Authors.Update(updatedAuthor);
+                _dbContext.SaveChanges();
                 return NoContent(); 
             }
         }

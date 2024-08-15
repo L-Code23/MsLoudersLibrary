@@ -18,7 +18,7 @@ namespace Mrs_Louders_Library.Controllers
         [HttpGet]
         public IActionResult GetAllBooks()
         {
-            List<Book> books = _dbContext.Books.ToList();
+            List<Book> books = _dbContext.Books.OrderBy(b=> b.Title).ToList();
             return Ok(books);
         }
         [HttpGet("{id}")]

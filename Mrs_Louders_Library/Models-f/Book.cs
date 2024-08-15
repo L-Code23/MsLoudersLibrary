@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Mrs_Louders_Library.Models;
+namespace Mrs_Louders_Library.Models-f;
 
 public partial class Book
 {
@@ -12,6 +12,7 @@ public partial class Book
     public string? Subtitle { get; set; }
 
     public string? BookCover { get; set; }
+
     public bool? CheckedOut { get; set; }
 
     public virtual ICollection<Author> Authors { get; set; } = new List<Author>();

@@ -20,9 +20,14 @@ namespace Mrs_Louders_Library.Controllers
         [HttpGet]
         public IActionResult GetAllAuthors()
         {
-            List<Author> authors = _dbContext.Authors.ToList();
+            List<Author> authors = _dbContext.Authors.OrderBy(a => a.LastName).ThenBy(a => a.FirstName).ToList(); 
+
             return Ok(authors);
+
+
+
         }
+        
         [HttpGet("{id}")]
         public IActionResult GetAuthorsById(int id)
         {
